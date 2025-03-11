@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Inovador</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Scrip Theme Config -->
+    <script src="../js/script.js"></script>
+
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Topo chamativo -->
+    <section class="py-24 bg-gradient-to-b from-white to-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-800 animate__animated animate__fadeInDown">
+                Transforme seu dia a dia com nosso <span class="text-primary">Produto Inovador</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-10 animate__animated animate__fadeIn animate__delay-1s">
+                Uma solução revolucionária que vai mudar a forma como você trabalha e vive.
+            </p>
+        </div>
+    </section>
+
+    <!-- Opções de compra -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">Escolha o plano perfeito para você</h2>
+            <div class="w-20 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-8 max-w-5xl mx-auto">
+                <!-- Plano Básico -->
+                <div class="w-full md:w-1/2 bg-white rounded-xl shadow-lg transition-transform duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-3 text-gray-800">Plano Básico</h3>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-800">R$ 99,90</span>
+                            <span class="text-gray-500 ml-2">/mês</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">Ideal para uso pessoal com todos os recursos essenciais</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Acesso a recursos básicos</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Suporte por e-mail</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Atualizações gratuitas</span>
+                            </li>
+                        </ul>
+                        <a href="#checkout" class="block w-full py-3 px-6 text-center rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-colors duration-300">Comprar Agora</a>
+                    </div>
+                </div>
+                
+                <!-- Plano Premium -->
+                <div class="w-full md:w-1/2 bg-white rounded-xl shadow-lg transition-transform duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden relative">
+                    <div class="absolute top-0 right-0 bg-primary text-white px-4 py-1 rounded-bl-lg font-semibold text-sm">Popular</div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-3 text-gray-800">Plano Premium</h3>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-800">R$ 199,90</span>
+                            <span class="text-gray-500 ml-2">/mês</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">Solução completa para profissionais e empresas</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Todos os recursos do plano básico</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Suporte prioritário 24/7</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Recursos avançados exclusivos</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-primary mr-2"></i>
+                                <span>Acesso a treinamentos</span>
+                            </li>
+                        </ul>
+                        <a href="#checkout" class="block w-full py-3 px-6 text-center rounded-lg bg-primary text-white font-semibold hover:bg-primaryDark transition-colors duration-300">Comprar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Descrição do produto -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">Por que escolher nosso produto?</h2>
+            <div class="w-20 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Característica 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Alta Performance</h4>
+                    <p class="text-gray-600">Desempenho inigualável para otimizar seu tempo e aumentar sua produtividade.</p>
+                </div>
+                
+                <!-- Característica 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Segurança Garantida</h4>
+                    <p class="text-gray-600">Proteção de ponta a ponta para seus dados, garantindo total privacidade.</p>
+                </div>
+                
+                <!-- Característica 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Atualizações Constantes</h4>
+                    <p class="text-gray-600">Sempre atualizado com as mais recentes tecnologias e melhorias.</p>
+                </div>
+                
+                <!-- Característica 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Multiplataforma</h4>
+                    <p class="text-gray-600">Acesse de qualquer dispositivo, a qualquer hora e em qualquer lugar.</p>
+                </div>
+                
+                <!-- Característica 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Colaboração em Tempo Real</h4>
+                    <p class="text-gray-600">Trabalhe em equipe com ferramentas de colaboração intuitivas.</p>
+                </div>
+                
+                <!-- Característica 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">Suporte Dedicado</h4>
+                    <p class="text-gray-600">Equipe de suporte pronta para ajudar você em qualquer situação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">O que nossos clientes dizem</h2>
+            <div class="w-20 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+                <!-- Depoimento 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2025/02/21/11/06/woman-9421843_960_720.jpg" alt="Cliente" class="w-14 h-14 rounded-full object-cover mr-4">
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Ana Silva</h5>
+                            <p class="text-sm text-gray-500">Empreendedora</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Este produto transformou completamente meu negócio. A produtividade da minha equipe aumentou em mais de 50% desde que começamos a usar. Recomendo fortemente!"</p>
+                </div>
+                
+                <!-- Depoimento 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2024/12/13/21/16/bird-9266166_960_720.jpg" alt="Cliente" class="w-14 h-14 rounded-full object-cover mr-4">
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Carlos Mendes</h5>
+                            <p class="text-sm text-gray-500">Desenvolvedor</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Nunca vi uma interface tão intuitiva e ao mesmo tempo tão poderosa. As funcionalidades avançadas me ajudam a entregar projetos com muito mais rapidez."</p>
+                </div>
+                
+                <!-- Depoimento 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2025/02/05/20/17/family-9385616_960_720.jpg" alt="Cliente" class="w-14 h-14 rounded-full object-cover mr-4">
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Patrícia Oliveira</h5>
+                            <p class="text-sm text-gray-500">Designer</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"O suporte ao cliente é excepcional. Sempre que tive dúvidas, fui atendida prontamente e com soluções eficientes. Valeu cada centavo investido!"</p>
+                </div>
+                
+                <!-- Depoimento 4 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2024/07/14/14/42/woman-8894656_1280.jpg" alt="Cliente" class="w-14 h-14 rounded-full object-cover mr-4">
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Rafael Costa</h5>
+                            <p class="text-sm text-gray-500">Gerente de Projetos</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Estamos usando o produto há 6 meses e os resultados são impressionantes. A equipe se adaptou rapidamente e nossa eficiência melhorou consideravelmente."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-6 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Produto Inovador. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão de chat -->
+    <a href="#chat" class="fixed bottom-6 right-6 w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-primaryDark transition-colors duration-300 hover:scale-110 z-50">
+        <i class="fas fa-comments text-xl"></i>
+    </a>
+</body>
+</html>

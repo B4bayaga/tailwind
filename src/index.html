@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class=" ml-5">
-        <h1 class="text-5xl text-sky-600 font-bold mt-4">Tailwind CSS</h1>
+        <h1 class="text-5xl text-sky-600 font-bold mt-4 animate-pulse">Tailwind CSS</h1>
 
         <div class="bg-sky-800 w-96 h-64 my-10">
             <h2 class="text-white text-center pt-9">Aprendendo TailwindCSS</h2>
@@ -21,10 +21,27 @@
             <h2 class="first:mb-4">Titulo do post...</h2>
             <p class="first-line:text-xl">Descrição do conteudo <br/>
             Outro texto criado quebrando a linha...</p>
-            <button class="bg-sky-800 my-4 py-2 px-5 text-white rounded-lg shadow-2xl hover:bg-sky-600 hover:shadow-lg hover:transition-colors duration-300">
+            <button class="bg-sky-900 my-4 py-2 px-5 text-white rounded-lg shadow-2xl hover:bg-sky-600
+                hover:shadow-lg hover:transition-colors duration-300 cursor-pointer active:scale-95
+                 active:bg-sky-700">
                 Clik
             </button>
         </div>
+        <div class="w-96 h-96 border-2 flex justify-around items-center">
+            <div class="w-20 h-20 bg-red-800 text-center text-white flex items-center justify-center hover:scale-110">Um</div>
+            <div class="w-20 h-20 bg-blue-700 text-center text-white flex items-center justify-center hover:scale-110">Dois</div>
+            <div class="w-20 h-20 bg-yellow-500 text-center text-white flex items-center justify-center hover:scale-110">Três</div>
+        </div>
+        <div class="h-10"></div>
+        <div class="w-96 h-96 border-2 flex flex-col justify-around items-center">
+            <div class="w-20 h-20 bg-red-800 text-center text-white flex items-center justify-center
+                hover:scale-110 duration-200">Um</div>
+            <div class="w-20 h-20 bg-blue-700 text-center text-white flex items-center justify-center
+                hover:scale-110 duration-200">Dois</div>
+            <div class="w-20 h-20 bg-yellow-500 text-center text-white flex items-center justify-center
+                hover:scale-110 duration-200">Três</div>
+        </div>
+        <div class="h-10"></div>
     </div>
 </body>
 </html>

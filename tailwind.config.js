@@ -1,15 +1,12 @@
-module.exports = {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {
-        colors: {
-            primary: '#FF00FF',
-        }
+export default {
+  content: [".src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "uber": "url('../src/assets/bguber.png')",
+        "city": "url('../src/assets/bg-city.png')",
       },
     },
-    plugins: [],
-}
-  
+  },
+  plugins: [],
+};

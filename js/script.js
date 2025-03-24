@@ -1,10 +1,10 @@
 tailwind.config = {
+    content: [".src/**/*.{html,js}"],
     theme: {
         extend: {
-            colors: {
-                primary: '#fd7043',
-                primaryDark: '#e85f33',
-                primaryLight: '#fe8c66',
+            backgroundImage: {
+                "uber": "url('../src/assets/bguber.png')",
+                "city": "url('../src/assets/bg-city.png')",
             },
         },
     },
